@@ -1,0 +1,115 @@
+@import url(../materialize/css/materialize.min.css);
+@import url(searchBar.css);
+@import url(nav.css);
+@import url(cards.css);
+@import url(roundedCards.css);
+@import url(logo.css);
+@import url(rating.css);
+@import url(contact_form.css);
+
+#rgb_hover:hover {
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 5s infinite linear;
+  text-shadow: 0px 0px 8px orange;
+}
+
+.dropdown-content.row {
+  overflow: visible;
+  width: 60%;
+  height: auto;
+}
+.vertical-tab-target {
+  display: none;
+}
+.vertical-tabs {
+  border-left: #2196f3;
+  border-width: 2px;
+  padding: 0 !important;
+}
+.vertical-tabs li a {
+  color: black !important;
+}
+
+.unglow {
+  -webkit-text-fill-color: white;
+}
+
+.page-title {
+  color: white;
+  text-shadow: black 4px 0px 8px, black -4px 0px 8px, black 0px 4px 8px,
+    black 0px -4px 8px;
+}
+
+/* body */
+body {
+  background-color: black;
+}
+
+/* containers */
+.content {
+  min-height: 100%;
+}
+
+.wide-container {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* text bolding */
+.bold {
+  font-weight: bold;
+}
+
+/* grid box */
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* font styles */
+.errormsg {
+  color: red;
+  font-weight: bold;
+}
+
+.glow-text {
+  text-shadow: 0px 0px 5px cyan;
+  font-weight: bold;
+}
+
+.glow-title {
+  background-color: cyan;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+  box-shadow: 2px 2px 10px white;
+  text-decoration: underline;
+}
+
+#bordershadow {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+  transition: all 200ms ease-out;
+}
+
+#bordershadow:hover {
+  border: 1px solid aqua;
+  box-shadow: 0 0 0 1px aqua;
+}
+
+.background-overlay {
+  background-image: url("../images/aboutusbgimg.jpg");
+  height: 40%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
